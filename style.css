@@ -1,0 +1,50 @@
+article {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+article img {
+    width:200px;
+    height:300px;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+p, pre {
+    width: 300px;
+
+}
+table{
+    text-align: center;
+    border: 1;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: #333333;
+}
+a:active{
+    color: #ff0000;
+}
+.author{
+    color: #ff00ff;
+    font-size: 44px;
+    font-weight: bold;
+}
+.title{
+    color:blueviolet;
+    font-size: 32px;
+    background-color: aqua;
+}
+.content{
+    background-image: url('img/rondel.jpg');
+}
